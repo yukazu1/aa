@@ -6,10 +6,15 @@
 function play()
 {
 
-      music.loop = true;
+    music.loop = true;
     music.play();
 }
 
+function stop()
+{
+    music.pause();
+    music.currentTime = 0; 
+}
 
 
 document.onkeydown = function(e) { 
