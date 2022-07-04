@@ -1,6 +1,6 @@
   var music = new Audio();
  music.preload = "auto";
-    music.src = "./main.mp3";
+    music.src = "https://yukazu1.github.io/aa/main.mp3";
  music.load();
 
 function play()
